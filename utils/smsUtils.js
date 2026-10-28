@@ -4,7 +4,7 @@ const GSM_BASIC =
   "\u001bÆæßÉ !\"#¤%&'()*+,-./0123456789:;<=>?" +
   "¡ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÑÜ§¿abcdefghijklmnopqrstuvwxyzäöñüà";
 
-const GSM_EXTENDED = "^{}\\[~]|€";
+const GSM_EXTENDED = "\f^{}\\[~]|€";
 
 function normalizeNepaliNumber(number) {
   let normalized = String(number).trim();
